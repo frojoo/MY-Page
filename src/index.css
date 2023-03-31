@@ -4,6 +4,6 @@
 
 @layer components {
   .btn-style {
-    @apply text-white font-bold border-none uppercase cursor-pointer;
+    @apply text-white font-bold border-none uppercase;
   }
 }
