@@ -1,5 +1,5 @@
 function StockTrading() {
-  return <div>StockTrading Page</div>;
+  return <div className="text-white text-4xl">StockTrading Page</div>;
 }
 
 export default StockTrading;
