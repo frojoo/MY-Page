@@ -1,4 +1,4 @@
-import { useSearchParams } from "react-router-dom";
+import { Link, useSearchParams } from "react-router-dom";
 
 function PortfolioDetail() {
   const [searchParams] = useSearchParams();
@@ -9,15 +9,19 @@ function PortfolioDetail() {
 
   return (
     <main className="bg-slate-400 relative max-w-screen-xl mx-auto w-full grow flex flex-col justify-center items-center py-8">
-      <button className="absolute left-0 font-bold text-2xl mx-6 my-4 hover:scale-105">
+      {/* <button className="absolute left-0 font-bold text-2xl mx-6 my-4 hover:scale-105">
         〈
       </button>
+
       <button className="absolute right-0 font-bold text-2xl mx-6 my-4 hover:scale-105">
         〉
-      </button>
-      <button className="absolute top-0 right-0 text-2xl mx-6 my-4 hover:scale-105">
-        X
-      </button>
+      </button> */}
+
+      <Link to="/portfolio">
+        <button className="absolute top-0 right-0 text-2xl mx-6 my-4 hover:scale-105">
+          X
+        </button>
+      </Link>
       <img src={`${process.env.PUBLIC_URL}/${image}`} />
       <div className="mt-8 text-4xl font-bold">{title}</div>
       <div className="mt-8 text-xl">{desc}</div>
