@@ -2,61 +2,71 @@
   {
     "title": "Up-Down Game",
     "desc": "랜덤으로 생성되는 숫자 맞추기",
-    "image": "images/duck.png",
-    "detail": "0~100까지의 숫자 중에서 랜덤으로 생성되는 숫자를 맞춰보세요. Up-Down으로 힌트를 드리며 틀릴 때마다 1점씩 감소합니다. 점수는 최대 5점입니다."
+    "image": "images/updown-game.png",
+    "detail": "0~100까지의 숫자 중에서 랜덤으로 생성되는 숫자를 맞춰보세요. Up-Down으로 힌트를 드리며 틀릴 때마다 1점씩 감소합니다. 점수는 최대 5점입니다.",
+    "href": "https://videogame-worldcup.vercel.app/"
   },
   {
     "title": "이상형 월드컵",
-    "desc": "콘솔 게임 시리즈 이상형 월드컵",
-    "image": "images/duck.png",
-    "detail": "0~100까지의 숫자 중에서 랜덤으로 생성되는 숫자를 맞춰보세요. Up-Down으로 힌트를 드리며 틀릴 때마다 1점씩 감소합니다. 점수는 최대 5점입니다."
+    "desc": "명작 콘솔 게임 시리즈 이상형 월드컵 16강",
+    "image": "images/game-worldcup.png",
+    "detail": "콘솔 게임 시리즈 중에서 본인이 명작이라 생각하는 게임을 골라보세요.",
+    "href": "https://videogame-worldcup.vercel.app/"
   },
   {
     "title": "Project 3",
     "desc": "This is project 3",
     "image": "images/duck.png",
-    "detail": "0~100까지의 숫자"
+    "detail": "0~100까지의 숫자",
+    "href": "https://videogame-worldcup.vercel.app/"
   },
   {
     "title": "Project 4",
     "desc": "This is project 4",
     "image": "images/duck.png",
-    "detail": "0~100까지의 숫자"
+    "detail": "0~100까지의 숫자",
+    "href": "https://videogame-worldcup.vercel.app/"
   },
   {
     "title": "Project 5",
     "desc": "This is project 5",
     "image": "images/duck.png",
-    "detail": "0~100까지의 숫자"
+    "detail": "0~100까지의 숫자",
+    "href": "https://videogame-worldcup.vercel.app/"
   },
   {
     "title": "Project 6",
     "desc": "This is project 6",
     "image": "images/duck.png",
-    "detail": "0~100까지의 숫자"
+    "detail": "0~100까지의 숫자",
+    "href": "https://videogame-worldcup.vercel.app/"
   },
   {
     "title": "Project 7",
     "desc": "This is project 7",
     "image": "images/duck.png",
-    "detail": "0~100까지의 숫자"
+    "detail": "0~100까지의 숫자",
+    "href": "https://videogame-worldcup.vercel.app/"
   },
   {
     "title": "Project 8",
     "desc": "This is project 8",
     "image": "images/duck.png",
-    "detail": "0~100까지의 숫자"
+    "detail": "0~100까지의 숫자",
+    "href": "https://videogame-worldcup.vercel.app/"
   },
   {
     "title": "Project 9",
     "desc": "This is project 9",
     "image": "images/duck.png",
-    "detail": "0~100까지의 숫자"
+    "detail": "0~100까지의 숫자",
+    "href": "https://videogame-worldcup.vercel.app/"
   },
   {
     "title": "Project 10",
     "desc": "This is project 10",
     "image": "images/duck.png",
-    "detail": "0~100까지의 숫자"
+    "detail": "0~100까지의 숫자",
+    "href": "https://videogame-worldcup.vercel.app/"
   }
 ]

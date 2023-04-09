@@ -4,7 +4,7 @@ import Href from "../components/Href";
 
 function Main() {
   return (
-    <main className="bg-blue-500">
+    <main>
       <Datetime />
       <Introduce />
       <Href />

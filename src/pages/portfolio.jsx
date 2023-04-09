@@ -5,7 +5,7 @@ import { Outlet } from "react-router-dom";
 function Portfolio() {
   return (
     <div className="bg-gray-200 max-w-screen-xl mx-auto h-full flex flex-col justify-start px-5 py-4">
-      <div className="text-4xl font-bold border-b-2 border-black pb-3">
+      <div className="text-4xl font-bold font-serif border-b-2 border-black pb-3">
         My Projects
       </div>
       <Outlet />
@@ -19,6 +19,7 @@ function Portfolio() {
               title={v.title}
               desc={v.desc}
               detail={v.detail}
+              href={v.href}
             />
           );
         })}

@@ -1,7 +1,7 @@
 function Href() {
   return (
     <div>
-      <ul class="max-w-screen-xl mx-auto h-14 flex justify-center items-center gap-2">
+      <ul class="text-white max-w-screen-xl mx-auto h-14 flex justify-center items-center gap-2">
         <li>깃허브</li>
         <li>벨로그</li>
         <li>메타마스크</li>

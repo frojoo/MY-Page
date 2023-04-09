@@ -1,9 +1,9 @@
 import { Link } from "react-router-dom";
 
-function PortfolioCard({ image, title, desc, index, detail }) {
+function PortfolioCard({ image, title, desc, index, detail, href }) {
   return (
     <Link
-      to={`/portfolio/${index}?title=${title}&desc=${desc}&image=${image}&detail=${detail}`}
+      to={`/portfolio/${index}?title=${title}&desc=${desc}&image=${image}&detail=${detail}&href=${href}`}
     >
       <li className="relative bg-white w-60 h-72 shadow-lg rounded-lg hover:scale-105">
         <div className="w-full h-1/2 rounded-t-lg">
