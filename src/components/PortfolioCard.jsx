@@ -10,6 +10,7 @@ function PortfolioCard({ image, title, desc, index, detail, href }) {
           <img
             className="w-full h-full border-b-2 object-cover rounded-t-lg"
             src={`${process.env.PUBLIC_URL}/${image}`}
+            alt="project"
           />
         </div>
         <div className=" text-xl font-bold mt-3 mx-2">{title}</div>

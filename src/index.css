@@ -4,6 +4,6 @@
 
 @layer components {
   .btn-style {
-    @apply text-white font-bold border-none uppercase hover:scale-105;
+    @apply text-white font-bold border-none uppercase hover:scale-105 text-xs sm:text-sm md:text-lg;
   }
 }

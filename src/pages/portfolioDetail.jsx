@@ -23,13 +23,14 @@ function PortfolioDetail() {
           X
         </button>
       </Link>
-      <img src={`${process.env.PUBLIC_URL}/${image}`} />
+      <img src={`${process.env.PUBLIC_URL}/${image}`} alt="projects" />
       <div className="mt-8 text-4xl font-bold">{title}</div>
       <div className="mt-8 text-xl">{desc}</div>
       <a
         href={href}
         className="absolute top-0 left-0 mx-2 text-2xl hover:scale-105"
         target="_blank"
+        rel="noopener noreferrer"
       >
         Go to Play
       </a>

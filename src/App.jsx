@@ -10,8 +10,9 @@ import StockTrading from "./pages/stock";
 function App() {
   return (
     <BrowserRouter>
-      <div className="min-h-screen bg-black flex flex-col">
+      <div className="min-h-screen bg-slate-600 flex flex-col">
         <Header />
+
         <Routes>
           <Route path="/" element={<Main />} />
           <Route path="/portfolio" element={<Portfolio />}>

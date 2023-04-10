@@ -1,12 +1,12 @@
 import Datetime from "../components/Datetime";
-import Introduce from "../components/Introduce";
+import Chat from "../components/Chat";
 import Href from "../components/Href";
 
 function Main() {
   return (
     <main>
       <Datetime />
-      <Introduce />
+      <Chat />
       <Href />
     </main>
   );
